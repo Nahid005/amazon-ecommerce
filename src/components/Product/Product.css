@@ -1,0 +1,26 @@
+.single-product{
+    display: flex;
+    width: 100%;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-info {
+    margin: 0 20px;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.product-info .btn {
+    padding: 5px 20px;
+    border: 0;
+    background: tomato;
+    color: #fff;
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 3px;
+}
