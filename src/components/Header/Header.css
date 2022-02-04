@@ -1,0 +1,33 @@
+.brand-logo{
+    text-align: center;
+    padding: 20px 0;
+}
+.brand-logo img{
+    width: 200px;
+}
+
+nav{
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    transition: all .3s ease-in;
+}
+
+nav ul li:hover{
+    background: chocolate;
+}
+
+nav ul li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
