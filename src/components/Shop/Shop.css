@@ -1,5 +1,13 @@
 .shop-container{
     display: flex;
+    width: 100%;
+    justify-content: start;
+}
+
+.product-card{
     width: 70%;
-    justify-content: space-between;
+}
+
+.cart-info{
+    width: 30%;
 }
