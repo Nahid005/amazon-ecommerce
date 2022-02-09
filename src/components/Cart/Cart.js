@@ -32,7 +32,7 @@ const Cart = (props) => {
                 <h4> This is cart header </h4>
             </div>
             <div className='cart-calculation'>
-                <p> Total Order: {tofixd(cart.length)}</p>
+                <p> Total Order: {cart.length}</p>
                 <p> Total Price : {tofixd(total)}</p>
                 <p> Shipping cost : {tofixd(shipping)}</p>
                 <p> Tex + vat : {tofixd(tex)} </p>

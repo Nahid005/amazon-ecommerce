@@ -5,7 +5,8 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
 
-const Shop = () => {
+const Shop = (props) => {
+    console.log(data);
     const frist10 = data.slice(0, 10);
     const [products, setProducts] = useState(frist10) ;
     const [cart, setCart] = useState([]);
